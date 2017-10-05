@@ -1,0 +1,34 @@
+{
+  "name": "react-startup",
+  "version": "1.0.0",
+  "description": "This project contains basic structure for starting a React Project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harsh-daiict/react-startup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harsh-daiict/react-startup/issues"
+  },
+  "homepage": "https://github.com/harsh-daiict/react-startup#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1"
+  }
+}
